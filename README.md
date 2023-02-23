@@ -18,16 +18,27 @@ The course is divided into several modules, each covering a specific topic in Ja
 The course will cover the following topics:
 
 .Introduction to Java programming
+
 .Variables and data types
+
 .Operators and expressions
+
 .Control structures
+
 .Methods and functions
+
 .Arrays and collections
+
 .Object-oriented programming
+
 .Inheritance and polymorphism
+
 .Exception handling
+
 .Input and output
+
 .GUI programming
+
 .Conclusion
 
 By the end of this course, you will have a solid foundation in Java programming and be able to create your own Java applications. This course is a great starting point for anyone who wants to pursue a career in software development or improve their programming skills.
