@@ -72,11 +72,11 @@ class Umpire
 			}
 			else if(numFromGuesser==numFromPlayer2)
 			{
-				System.out.println("Player 1 and Player2 won the game");
+				System.out.println("Player 1 and Player 2 won the game");
 			}
 			else if(numFromGuesser==numFromPlayer3)
 			{
-				System.out.println("Player 1 and Player3 won the game");
+				System.out.println("Player 1 and Player 3 won the game");
 			}
 			else
 			{
@@ -90,7 +90,7 @@ class Umpire
 			
 			if(numFromGuesser==numFromPlayer3)
 			{
-			System.out.println("Player 2 and Player3 won the game");
+			System.out.println("Player 2 and Player 3 won the game");
 			}
 			else
 			{
@@ -104,7 +104,7 @@ class Umpire
 		}
 		else
 		{
-			System.out.println("Game lost! try again");
+			System.out.println("Game lost! try again...");
 		}
 	}
 	
