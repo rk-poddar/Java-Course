@@ -15,4 +15,4 @@ Run the `Main.java` file.
 The game prompts each player to enter a number.\
 After each player has entered their guess, the game checks if any of the players have guessed the correct number.\
 If a player has guessed the correct number, the game displays a message indicating that player has `won the game`.\
-If none of the players guess the correct number, the game displays a message `Game lost! try again`.
+If none of the players guess the correct number, the game displays a message `Game lost! try again...`.
