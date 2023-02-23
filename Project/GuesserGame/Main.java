@@ -85,7 +85,6 @@ class Umpire
 			}
 		}
 		
-		
 		else if(numFromGuesser==numFromPlayer2)
 		{
 			
@@ -99,8 +98,6 @@ class Umpire
 			}
 		}
 		
-		
-		
 		else if(numFromGuesser==numFromPlayer3)
 		{
 			System.out.println("Player 3 won the game");
@@ -112,10 +109,6 @@ class Umpire
 	}
 	
 }
-
-
-
-
 
 public class Main {
 
