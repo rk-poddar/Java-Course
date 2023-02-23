@@ -1,4 +1,4 @@
-package Pattern_Programming.Pattern_B;
+package Pattern_B;
 
 public class Main
 {
