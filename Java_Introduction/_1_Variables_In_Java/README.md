@@ -21,7 +21,7 @@ When naming variables in Java, there are a few rules you must follow:
 The variable name must start with a letter or underscore character.\
 The variable name cannot start with a number.\
 The variable name can only contain letters, numbers, and underscores.\
-Java is case sensitive, so "number" and "Number" are considered different variable names.\
+Java is case sensitive, so `"number"` and `"Number"` are considered different variable names.\
 It's also good practice to use descriptive names for your variables to make your code more readable and understandable.
 
 ## Conclusion
