@@ -1,31 +1,24 @@
 package Project.GuesserGame;
-
 import java.util.Scanner;
 
 class Guesser
 {
 	int guessNum;
-	
 	public int guessNumber()
 	{
-		Scanner scan=new Scanner(System.in);
-		
-		
+		Scanner scan = new Scanner(System.in); 
 		System.out.println("Guesser kindly guess the number");
 		guessNum=scan.nextInt();
 		return guessNum;	
-		
 	}	
-
 }
 
 class Player
 {
 	int pguessNum;
-	
 	public int guessNumber()
 	{
-		Scanner scan=new Scanner(System.in);
+		Scanner scan = new Scanner(System.in); 
 		System.out.println("Player kindly guess the number");
 		pguessNum=scan.nextInt();
 		return pguessNum;
@@ -34,12 +27,10 @@ class Player
 
 class Umpire
 {
-	
 	int numFromGuesser;
 	int numFromPlayer1;
 	int numFromPlayer2;
 	int numFromPlayer3;
-	
 	
 	public void collectNumFromGuesser()
 	{
@@ -48,13 +39,11 @@ class Umpire
 		
 	}
 	
-	
 	public void collectNumFromPlayer()
 	{
 		Player p1=new Player();
 		Player p2=new Player();
 		Player p3=new Player();
-		
 		
 		numFromPlayer1=p1.guessNumber();
 		numFromPlayer2=p2.guessNumber();
@@ -63,7 +52,6 @@ class Umpire
 	
 	void compare()
 	{
-		
 		if(numFromGuesser==numFromPlayer1)
 		{
 			if(numFromGuesser==numFromPlayer2 && numFromGuesser==numFromPlayer3)
@@ -87,7 +75,6 @@ class Umpire
 		
 		else if(numFromGuesser==numFromPlayer2)
 		{
-			
 			if(numFromGuesser==numFromPlayer3)
 			{
 			System.out.println("Player 2 and Player 3 won the game");
@@ -111,14 +98,11 @@ class Umpire
 }
 
 public class Main {
-
 	public static void main(String[] args) {
 		
 		Umpire u=new Umpire();
 		u.collectNumFromGuesser();
 		u.collectNumFromPlayer();
 		u.compare();
-
 	}
-
 }
