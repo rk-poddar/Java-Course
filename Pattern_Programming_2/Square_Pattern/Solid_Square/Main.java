@@ -1,4 +1,4 @@
-package Pattern_Programming_2.Square_Pattern;
+package Pattern_Programming_2.Square_Pattern.Solid_Square;
 
 public class Main {
     public static void main(String[] args) {
