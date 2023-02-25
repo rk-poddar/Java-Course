@@ -1,4 +1,4 @@
-package Java_Introduction._6_Switch_In_Java;
+package Java_Introduction._6_Switch_Statement_In_Java;
 import java.util.Scanner;
 
 public class Main {
