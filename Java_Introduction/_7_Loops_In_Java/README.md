@@ -1,0 +1,2 @@
+# Loop Statements 
+Loop statements in Java are used to repeatedly execute a block of code as long as a certain condition is true or until a certain condition is met. Java has three types of loop statements: `for`, `while`, and `do-while` loops.
