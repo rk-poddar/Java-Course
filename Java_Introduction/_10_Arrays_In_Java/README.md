@@ -21,7 +21,7 @@ Array elements can be accessed using their index, which starts at 0. For example
 You can also change the value of an element by assigning a new value to its index:
 >   myArray[0] = 10;
 
-Multi-dimensional Arrays
+### Multi-dimensional Arrays
 Arrays can also be multi-dimensional. For example, a two-dimensional array can be thought of as a grid or table:
 >   int[][] grid = new int[3][3];
 

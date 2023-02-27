@@ -24,7 +24,7 @@ The course is divided into several modules, each covering a specific topic in Ja
 
 The course will cover the following topics:
 
-+ Introduction to `Java Programming`
++ Introduction to Java Programming
 + Variables and Data types
 + Operators and expressions
 + Control structures
