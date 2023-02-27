@@ -25,8 +25,7 @@ public class Main
         // print the values of the array elements
 		for(int x : a){
 		    System.out.print(x+" ");
-		}
-		
+		}	
 	}
 }
 
