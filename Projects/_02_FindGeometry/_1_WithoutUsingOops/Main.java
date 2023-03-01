@@ -1,4 +1,4 @@
-package Project._02_FindGeometry._1_WithoutUsingOops;
+package Projects._02_FindGeometry._1_WithoutUsingOops;
 
 import java.util.Scanner;
 
