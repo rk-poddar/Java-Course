@@ -1,4 +1,4 @@
-# Area of Rectangle, Square, and Circle Project
+# Find Area of Rectangle, Square, and Circle Project
 This project aims to calculate the area of a rectangle, square, and circle using Java programming language with user input.
 
 ## Getting Started
