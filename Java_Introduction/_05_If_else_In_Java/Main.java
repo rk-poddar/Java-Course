@@ -1,4 +1,4 @@
-package Java_Introduction._5_If_else_In_Java;
+package Java_Introduction._05_If_else_In_Java;
 import java.util.Scanner;
 
 public class Main {

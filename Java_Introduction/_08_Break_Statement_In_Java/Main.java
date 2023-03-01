@@ -1,4 +1,4 @@
-package Java_Introduction._8_Break_Statement_In_Java;
+package Java_Introduction._08_Break_Statement_In_Java;
 
 public class Main {
     public static void main(String[] args) {

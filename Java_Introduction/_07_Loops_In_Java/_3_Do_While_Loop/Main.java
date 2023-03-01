@@ -1,4 +1,4 @@
-package Java_Introduction._7_Loops_In_Java._3_Do_While_Loop;
+package Java_Introduction._07_Loops_In_Java._3_Do_While_Loop;
 
 public class Main {
     public static void main(String[] args) {

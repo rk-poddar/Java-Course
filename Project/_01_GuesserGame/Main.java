@@ -1,4 +1,4 @@
-package Project.GuesserGame;
+package Project._01_GuesserGame;
 import java.util.Scanner;
 
 class Guesser

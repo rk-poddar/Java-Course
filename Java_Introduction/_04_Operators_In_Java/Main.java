@@ -1,4 +1,4 @@
-package Java_Introduction._4_Operators_In_Java;
+package Java_Introduction._04_Operators_In_Java;
 
 public class Main {
     public static void main(String[] args) {

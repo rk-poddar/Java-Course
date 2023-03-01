@@ -1,4 +1,4 @@
-package Java_Introduction._2_Data_Types_In_Java;
+package Java_Introduction._02_Data_Types_In_Java;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Java_Introduction._1_Variables_In_Java;
+package Java_Introduction._01_Variables_In_Java;
 
 public class Main {
     public static void main(String[] args) {

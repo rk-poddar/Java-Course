@@ -74,19 +74,40 @@ class Circle{
 
 public class Main {
     public static void main(String[] args) {
-        Rectangle re = new Rectangle();
-        re.Input();
-        re.Compute();
-        re.Display();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your choice : ");
+        System.out.println("1. Area of Rectangle ");
+        System.out.println("2. Area of Square ");
+        System.out.println("3. Area of Circle ");
+        int number = sc.nextInt();
 
-        Square sq = new Square();
-        sq.Input();
-        sq.Compute();
-        sq.Display();
+        switch(number){
+            case 1:
+                Rectangle re = new Rectangle();
+                re.Input();
+                re.Compute();
+                re.Display();
+            break;
 
-        Circle cr = new Circle();
-        cr.Input();
-        cr.Compute();
-        cr.Display();
+            case 2:
+                Square sq = new Square();
+                sq.Input();
+                sq.Compute();
+                sq.Display();
+            break;
+
+            case 3:
+                Circle cr = new Circle();
+                cr.Input();
+                cr.Compute();
+                cr.Display();
+            break;
+
+            default:
+                System.out.println("Invalid Input..! Try again...");
+                
+        }  
+
+        sc.close();
     }
 }
