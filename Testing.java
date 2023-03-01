@@ -106,7 +106,7 @@ class Choices{
                          
         }  
 
-        sc.close();
+        // sc.close();
     }
 }
 
@@ -117,23 +117,24 @@ public class Testing {
         Choices ch = new Choices();
         ch.Choice();
         
-        System.out.println("You want more calculation: ");
-        System.out.println("1. Yes ");
-        System.out.println("2. No ");
+        while(true){
+            System.out.println("You want more calculation: ");
+            System.out.println("1. Yes ");
+            System.out.println("2. No ");
 
-        Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
+            Scanner sc = new Scanner(System.in);
+            int number = sc.nextInt();
 
-        switch(number){
-            case 1:
+            if(number==1){
                 ch.Choice();
-            break;
-
-            case 2:
+            }
+            else if(number==2){
                 break;
-
-            default:
+            }
+            else{
                 System.out.println("Wrong Input..");
+            }
+
         }
 
     }
