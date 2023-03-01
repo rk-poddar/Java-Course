@@ -79,10 +79,8 @@ class Geometry{
     }
 }
 
-
-public class Main{
-    public static void main(String[] args){
-
+class Choices{
+    public void Choice(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your choice : ");
         System.out.println("1. Area of Rectangle ");
@@ -112,8 +110,34 @@ public class Main{
             default:
                 System.out.println("Invalid Input..! Try again...");
         }
+    }
+}
 
-        sc.close();
+
+public class Main{
+    public static void main(String[] args){
+
+        Choices ch = new Choices();
+        ch.Choice();
         
+        while(true){
+            System.out.println("You want more calculation: ");
+            System.out.println("1. Yes ");
+            System.out.println("2. No ");
+
+            Scanner sc = new Scanner(System.in);
+            int number = sc.nextInt();
+
+            if(number==1){
+                ch.Choice();
+            }
+            else if(number==2){
+                break;
+            }
+            else{
+                System.out.println("Wrong Input..");
+            }
+
+        }
     }  
 }
