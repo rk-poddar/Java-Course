@@ -5,7 +5,7 @@ import java.util.Scanner;
 class Rectangle{
 
     float length;
-    float breath;
+    float breadth;
     float area;
 
     public void Input(){
@@ -13,12 +13,12 @@ class Rectangle{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the length: ");
         length = sc.nextFloat();
-        System.out.print("Enter the length: ");
-        breath = sc.nextFloat();
+        System.out.print("Enter the breadth: ");
+        breadth = sc.nextFloat();
     }
 
     public void Compute(){
-        area = length * breath;
+        area = length * breadth;
     }
 
     public void Display(){
