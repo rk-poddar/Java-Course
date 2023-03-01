@@ -13,9 +13,7 @@ This is a simple guessing game where three players can play simultaneously. The 
 + Run the `Main.java` file.
 
 ## How to run the game
-+ Clone the repository to your local machine.
-+ Open the project in your Java IDE.
-+ Run the `Main.java` file.
++ Run the **`Main.java`** file.
 
 ## How to play
 + The game prompts each player to enter a number.
